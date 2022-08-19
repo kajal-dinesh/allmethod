@@ -1,0 +1,27 @@
+<div>
+    <table class="table">
+        <tr>
+            <th>FirstName</th>
+            <th>Age</th>
+            <th>phoneNumber</th>
+        </tr>
+        <tr *ngFor="let item of userData">
+            <td>{{item.username}}</td>
+            <td>{{item.website}}</td>
+            <td>{{item.phone}}</td>
+        </tr>
+
+    </table>
+
+
+
+
+</div>
+
+<app-post></app-post>
+<div class="col-md-2" id="summary">
+    <a  routerLink="/gallery"  id="gallery">Gallery</a><br><br>
+    <a class="nav-h1" routerLink="/home">Home</a>
+
+
+</div>
